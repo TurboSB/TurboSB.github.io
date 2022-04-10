@@ -7,7 +7,7 @@ description: A short description of your site's purpose
 This is a community wiki for [Brad and Will Present a FOSS Pod](https://fosspod.content.town),
 a biweekly podcast about the Free and Open Source Software (FOSS) that’s changing the world, and the developers who are making it happen.
 
-![FOSSPod Logo](_includes/fosspod-logo.jpg)
+![FOSSPod Logo](images/fosspod-logo.jpg)
 
 This Wiki is hosted on [Github:
 FOSSPod-wiki](https://github.com/TurboSB/FOSSPod-wiki) See [README](README.md)
