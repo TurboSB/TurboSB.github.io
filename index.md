@@ -1,5 +1,8 @@
-
-## Welcome to the FOSS Pod Community Wiki!
+---
+title: Brad and Will Present a FOSS Pod Wiki
+description: A short description of your site's purpose
+---
+# Welcome to the FOSS Pod Community Wiki!
 
 This is a community wiki for [Brad and Will Present a FOSS Pod](https://fosspod.content.town),
 a biweekly podcast about the Free and Open Source Software (FOSS) that’s changing the world, and the developers who are making it happen.
