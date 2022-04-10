@@ -1,6 +1,6 @@
 ---
 title: Brad and Will Present a FOSS Pod Wiki
-description: A short description of your site's purpose
+description: Community Wiki for Brad and Will Present a FOSS Pod
 ---
 # Welcome to the FOSS Pod Community Wiki!
 
