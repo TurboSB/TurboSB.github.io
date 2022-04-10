@@ -1,5 +1,5 @@
 ---
-title: Brad and Will Present a FOSS Pod Wiki
+title: FOSS Pod Wiki
 description: Community Wiki for Brad and Will Present a FOSS Pod
 ---
 # Welcome to the FOSS Pod Community Wiki!
