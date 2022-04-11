@@ -26,7 +26,3 @@ body {
 }
 
 @import "{{ site.theme }}";
-
-.page-header {
-  background-image: linear-gradient(90deg, $header-bg-color-secondary, $header-bg-color);
-}
