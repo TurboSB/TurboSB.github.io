@@ -3,7 +3,7 @@
 
 // Headers
 $header-heading-color: #FFAA06;
-$header-bg-color: #1EAEDB;
+$header-bg-color: #0263AA;
 $header-bg-color-secondary: #003056;
 
 // Text
@@ -22,7 +22,11 @@ $table-border-color: #e9ebec;
 $hr-border-color: #eff0f1;
 
 body {
-  background-color: #004e8e;
+  background-color: #131E27;
 }
 
 @import "{{ site.theme }}";
+
+.page-header {
+  background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
+}
