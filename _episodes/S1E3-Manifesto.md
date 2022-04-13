@@ -1,4 +1,5 @@
 ---
+title: "S1E3: The FOSS Pod Manifesto"
 ---
 # S1E3 The FOSS Pod Manifesto
 

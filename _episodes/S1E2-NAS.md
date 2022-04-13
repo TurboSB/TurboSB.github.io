@@ -1,4 +1,5 @@
 ---
+title: "S1E2: Getting Started With Network Attached Storage"
 ---
 
 # S1E2 Getting Started With Network Attached Storage

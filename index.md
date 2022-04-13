@@ -26,10 +26,7 @@ Any suggestions and comments, use the [Issue Tracker](https://github.com/TurboSB
 
 
 {% for episode in site.episodes %}
-  <h2>
-    <a href="{{ episode.url }}">
-      {{ episode.title }}
-    </a>
-  </h2>
-  <p>{{ episode.content | markdownify }}</p>
+  <a href="{{ episode.url }}">
+    {{ episode.title }}
+  </a>
 {% endfor %}
