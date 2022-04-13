@@ -27,7 +27,7 @@ Any suggestions and comments, use the [Issue Tracker](https://github.com/TurboSB
 
 {% for episodes in site.episodes %}
   <h2>
-    <a href="{{ staff_member.url }}">
+    <a href="{{ episode.url }}">
       {{ episode.name }}
     </a>
   </h2>
