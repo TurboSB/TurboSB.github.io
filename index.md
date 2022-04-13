@@ -28,7 +28,7 @@ Any suggestions and comments, use the [Issue Tracker](https://github.com/TurboSB
 {% for episodes in site.episodes %}
   <h2>
     <a href="{{ episode.url }}">
-      {{ episode.name }}
+      {{ episode.title }}
     </a>
   </h2>
   <p>{{ episode.content | markdownify }}</p>
