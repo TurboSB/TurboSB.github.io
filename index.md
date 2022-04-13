@@ -27,11 +27,5 @@ Any suggestions and comments, use the [Issue Tracker](https://github.com/TurboSB
 [episodelist](episode-list.md)
 
 {% for episode in site.episodes %}
-  <a href="{{ episode.url }}">
-    {{forloop.index}}. {{ episode.title }}
-  </a>
-{% endfor %}
-
-{% for episode in site.episodes %}
-    {{{{forloop.index}}.[{{ episode.title }}]({{ episode.url }})| Markdownify}}
+  <p>{{forloop.index}}. <a href="{{ episode.url }}">{{ episode.title }}</a></p>
 {% endfor %}
