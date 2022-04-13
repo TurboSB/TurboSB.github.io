@@ -31,3 +31,7 @@ Any suggestions and comments, use the [Issue Tracker](https://github.com/TurboSB
     {{forloop.index}}. {{ episode.title }}
   </a>
 {% endfor %}
+
+{% for episode in site.episodes %}
+    {{forloop.index}}.[{{ episode.title }}]({{ episode.url }})
+{% endfor %}
