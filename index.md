@@ -33,5 +33,5 @@ Any suggestions and comments, use the [Issue Tracker](https://github.com/TurboSB
 {% endfor %}
 
 {% for episode in site.episodes %}
-    {{forloop.index}}.[{{ episode.title }}]({{ episode.url }})
+    {{{{forloop.index}}.[{{ episode.title }}]({{ episode.url }})| Markdownify}}
 {% endfor %}
