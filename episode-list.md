@@ -16,25 +16,12 @@
   <h2 id="Season {{ tag }}">Season {{ tag }}</h2>
   <ol>
 
-  {% comment %}
-  # combine posts and pages with this tag
-  {% endcomment %}
-
   {% for episode in site.episodes %}
     {% if episode.season == tag %}
       {% assign all_tagged = all_tagged | push: episode %}
     {% endif %}
   {% endfor %}
 
-  {% comment %}
-  # sort by title
-  {% endcomment %}
-  {% assign all_tagged = all_tagged | sort: "title" %}
-
-
-  {% comment %}
-  # finally, print the list item!
-  {% endcomment %}
   {% for tagged in all_tagged %}
     <li><a href="{{ tagged.url }}">{{ tagged.title }}</a></li>
   {% endfor %}
