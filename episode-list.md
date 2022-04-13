@@ -21,7 +21,7 @@
   {% endcomment %}
 
   {% for episode in site.episodes %}
-    {% if episode.season = tag %}
+    {% if episode.season == tag %}
       {% assign all_tagged = all_tagged | push: episode %}
     {% endif %}
   {% endfor %}
