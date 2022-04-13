@@ -26,6 +26,13 @@ Any suggestions and comments, use the [Issue Tracker](https://github.com/TurboSB
 
 [episodelist](episode-list.md)
 
+<ol>
 {% for episode in site.episodes %}
-  <p>{{forloop.index}}. <a href="{{ episode.url }}">{{ episode.title }}</a></p>
+  <li>
+    ::marker
+    <a href="{{ episode.url }}">
+      {{ episode.title }}
+    </a>
+  </li>
 {% endfor %}
+</ol>
