@@ -2,23 +2,42 @@
 ---
 # Episode List
 
-## Season 1
+{% assign page_tags = "" | split: ',' %}
 
+{%- for episode in site.episodes -%}
+  {% assign page_tags = page_tags | concat:episode.tags %}
+{%- endfor -%}
 
-{% for tag in site.tags %}
-  {% assign t = tag | first %}
-  {% assign episodes = tag | last %}
+{% assign sortedtags = page_tags | uniq | sort%}
 
-  {{ t | downcase }}
+{% for tag in sortedtags %}
+  {% assign all_tagged = "" | split: ',' %}
+
+  <h2 id="{{ tag }}">{{ tag }}</h3>
   <ol>
-    {% for episode in episodes %}
-      {% if episode.tags contains t %}
-      <li>
-        <a href="{{ episode.url }}">
-          {{ episode.title }}
-        </a>
-      </li>
-      {% endif %}
-    {% endfor %}
+
+  {% comment %}
+  # combine posts and pages with this tag
+  {% endcomment %}
+
+  {% for episode in site.episodes %}
+    {% if episode.tags contains tag %}
+      {% assign all_tagged = all_tagged | push: episode %}
+    {% endif %}
+  {% endfor %}
+
+  {% comment %}
+  # sort by title
+  {% endcomment %}
+  {% assign all_tagged = all_tagged | sort: "title" %}
+
+
+  {% comment %}
+  # finally, print the list item!
+  {% endcomment %}
+  {% for tagged in all_tagged %}
+    <li><a href="{{ tagged.url }}">{{ tagged.title }}</a></li>
+  {% endfor %}
+
   </ol>
 {% endfor %}

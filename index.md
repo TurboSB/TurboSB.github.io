@@ -16,7 +16,7 @@ Any suggestions and comments, use the [Issue Tracker](https://github.com/TurboSB
 ## Episodes
 ### Season 1
 <ol>
-{% for episode in site.tags.season-1 %}
+{% for episode in site.episodes %}
   <li>
     <a href="{{ episode.url }}">
       {{ episode.title }}
