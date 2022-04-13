@@ -24,9 +24,10 @@ Any suggestions and comments, use the [Issue Tracker](https://github.com/TurboSB
 ## Helpful Lists of FOSS packages
 [Wikipedia](https://en.wikipedia.org/wiki/List_of_free_and_open-source_software_packages)
 
+[episodelist](episode-list.md)
 
 {% for episode in site.episodes %}
   <a href="{{ episode.url }}">
-    {{ episode.title }}
+    {{forloop.index}}. {{ episode.title }}
   </a>
 {% endfor %}

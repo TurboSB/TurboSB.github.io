@@ -6,4 +6,14 @@ description: Community Wiki for Brad and Will Present a FOSS Pod
 collections:
     episodes:
       output: true
-      layout: default
+
+defaults:
+  - scope:
+      path: ""
+      type: "episodes"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
