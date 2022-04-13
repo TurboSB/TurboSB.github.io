@@ -7,11 +7,11 @@
 
 {% for tag in site.tags %}
   {% assign t = tag | first %}
-  {% assign episode = tag | last %}
+  {% assign episodes = tag | last %}
 
   {{ t | downcase }}
   <ol>
-    {% for episode in site.episodes %}
+    {% for episode in episodes %}
       {% if episode.tags contains t %}
       <li>
         <a href="{{ episode.url }}">
