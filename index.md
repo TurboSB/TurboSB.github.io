@@ -13,22 +13,13 @@ for detail documentation.
 
 Any suggestions and comments, use the [Issue Tracker](https://github.com/TurboSB/FOSSPod-wiki/issues)
 
-## Episodes
-### Season 1
-<ol>
-{% for episode in site.episodes %}
-  <li>
-    <a href="{{ episode.url }}">
-      {{ episode.title }}
-    </a>
-  </li>
-{% endfor %}
-</ol>
+## Latest Episode
+[{{site.episodes.last.title}}]({{site.episodes.last.url}})
+
+[all episodes](episode-list.md)
 
 ## Show Sponsors
 [Google Open Source](opensource.google)
 
 ## Helpful Lists of FOSS packages
 [Wikipedia](https://en.wikipedia.org/wiki/List_of_free_and_open-source_software_packages)
-
-[episodelist](episode-list.md)
