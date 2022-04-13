@@ -1,6 +1,6 @@
 ---
 title: "OBS With Jim Bailey"
-tags: season-1
+season: 1
 ---
 # S1E1: OBS With Jim Bailey
 
