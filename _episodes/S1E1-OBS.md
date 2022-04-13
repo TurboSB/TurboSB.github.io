@@ -1,5 +1,5 @@
 ---
-title: "S1E1: OBS With Jim Bailey"
+title: "OBS With Jim Bailey"
 ---
 # S1E1: OBS With Jim Bailey
 
