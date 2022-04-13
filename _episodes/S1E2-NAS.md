@@ -1,5 +1,6 @@
 ---
 title: "Getting Started With Network Attached Storage"
+tags: season-1
 ---
 
 # S1E2 Getting Started With Network Attached Storage

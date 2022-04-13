@@ -1,5 +1,6 @@
 ---
 title: "The FOSS Pod Manifesto"
+tags: season-1
 ---
 # S1E3 The FOSS Pod Manifesto
 
