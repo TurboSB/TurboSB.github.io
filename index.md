@@ -29,7 +29,6 @@ Any suggestions and comments, use the [Issue Tracker](https://github.com/TurboSB
 <ol>
 {% for episode in site.episodes %}
   <li>
-    ::marker
     <a href="{{ episode.url }}">
       {{ episode.title }}
     </a>
