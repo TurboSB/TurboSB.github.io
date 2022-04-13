@@ -23,3 +23,13 @@ Any suggestions and comments, use the [Issue Tracker](https://github.com/TurboSB
 
 ## Helpful Lists of FOSS packages
 [Wikipedia](https://en.wikipedia.org/wiki/List_of_free_and_open-source_software_packages)
+
+
+{% for episodes in site.episodes %}
+  <h2>
+    <a href="{{ staff_member.url }}">
+      {{ episode.name }}
+    </a>
+  </h2>
+  <p>{{ episode.content | markdownify }}</p>
+{% endfor %}
