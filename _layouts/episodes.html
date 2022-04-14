@@ -38,13 +38,13 @@
         {%- for episode in site.episodes -%}
           {% if episode == page %}
             {% if forloop.first == true %}
-              "previous episode"
+              previous episode
             {% else %}
               <a href = "{{site.episodes[forloop.index0 - 1].url}}">previous episode</a>
             {% endif %}
-            " | "
+             | 
             {% if forloop.last == true %}
-              "next episode"
+              next episode
             {% else %}
               <a href = "{{site.episodes[forloop.index].url}}">next episode</a>
             {% endif %}
