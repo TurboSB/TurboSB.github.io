@@ -12,7 +12,7 @@ defaults:
       path: ""
       type: "episodes"
     values:
-      layout: "default"
+      layout: "episodes"
   - scope:
       path: ""
     values:
